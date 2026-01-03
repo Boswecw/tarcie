@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0b0f14;
+  color: #e7edf5;
+}
+
+.wrap {
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+input:focus {
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+button {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+button:active {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#tarcie-status {
+  font-size: 12px;
+  opacity: 0.75;
+  margin-left: auto;
+}
+
+body.captured {
+  outline: 3px solid rgba(34, 197, 94, 0.9);
+  outline-offset: -3px;
+}
