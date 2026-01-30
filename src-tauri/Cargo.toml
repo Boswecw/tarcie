@@ -1,7 +1,7 @@
 [package]
 name = "tarcie"
 version = "1.0.0"
-edition = "2021"
+edition = "2024"
 description = "Friction-free capture tool for notes and markers"
 authors = ["Boswell"]
 license = "MIT"
