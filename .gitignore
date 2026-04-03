@@ -26,3 +26,5 @@ npm-debug.log*
 
 # Tauri
 src-tauri/target/
+
+context-bundle.md
